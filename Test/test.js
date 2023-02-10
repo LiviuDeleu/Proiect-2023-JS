@@ -10,3 +10,8 @@ document.getElementById("green").addEventListener("click", () => {
   document.getElementById("rgb").addEventListener("dblclick", () => {
     document.body.style.backgroundColor = "yellow";
   });
+
+  alert("Buna zia!")
+  const name = prompt("Cum te numesti?");
+  alert(`Salut ${name} !`);
+  
